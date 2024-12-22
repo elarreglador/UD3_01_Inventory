@@ -27,4 +27,8 @@ Codelab de persistencia de datos para room basado en https://developer.android.c
 * 85f1ddb ✨ Cambios menores: Paso 4, agregada dependencia de Room
 * 1ffb5a1 🎉 First commit!
 
+
+# URL solución oficial:
+https://github.com/google-developer-training/basic-android-kotlin-compose-training-inventory-app
+
 ## Caputras de pantalla
