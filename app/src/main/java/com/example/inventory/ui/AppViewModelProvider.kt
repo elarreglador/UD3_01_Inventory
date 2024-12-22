@@ -36,12 +36,14 @@ object AppViewModelProvider {
         // Initializer for ItemEditViewModel
         initializer {
             ItemEditViewModel(
-                this.createSavedStateHandle()
+                this.createSavedStateHandle(),
+                inventoryApplication().container.itemsRepository
             )
         }
         // Initializer for ItemEntryViewModel
         initializer {
-            ItemEntryViewModel(inventoryApplication().container.itemsRepository)        }
+            ItemEntryViewModel(inventoryApplication().container.itemsRepository)
+        }
 
         // Initializer for ItemDetailsViewModel
         initializer {
@@ -57,7 +59,6 @@ object AppViewModelProvider {
         }
     }
 }
-
 
 /**
  * Extension function to queries for [Application] object and returns an instance of
